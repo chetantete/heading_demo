@@ -1,0 +1,24 @@
+== README
+
+MS Word / LibreOffice headers generator
+
+Manual:
+
+* RVM: 2.3.0
+
+* Database: Mysql
+
+* run $rake db:setup
+
+* run $rails s
+
+* goto: localhost:3000
+
+* enter input in form
+
+* click on show data button
+
+* to clear result area click on clear_result button
+
+* ...
+

@@ -1,0 +1,18 @@
+default: &default
+  adapter: mysql2
+  username: root
+  password: root
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: heading_demo
+
+test:
+  <<: *default
+  database: heading_demo
+
+production:
+  <<: *default
+  database: heading_demo
